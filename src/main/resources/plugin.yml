@@ -1,0 +1,12 @@
+name: Steckbrief
+version: '${project.version}'
+main: steckbrief.steckbrief.Steckbrief
+commands:
+  Steckbrief:
+    permission: allowSteckbrief
+    description: Zeigt Steckbrief eines anderen Spielers
+    usage: /Steckbrief <Spieler>
+  setSteckbrief:
+     usage: /setSteckbrief <Name> <Beruf> <Alter> <Zusatz(optional)>
+     description: Überschreibt dienen Steckbrief
+     permission: allowSteckbrief
